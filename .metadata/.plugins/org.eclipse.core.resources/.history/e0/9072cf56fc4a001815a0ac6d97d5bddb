@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN" "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+	<constant name="struts.devMode" value="true"/>
+
+	<package name="com.internousdev.ECsite.action" extends="struts-default">
+
+		<action name="GoHomeAction" class="com.internousdev.ECsite.action.GoHomeAction" method="execute">
+			<result name="success">home.jsp</result>
+		</action>
+
+		<action name="GoSignInAction" class="com.internousdev.ECsite.action.GoSignInAction" method="execute">
+			<result name="success">signin.jsp</result>
+		</action>
+
+		<action name="GoSignUpAction" class="com.internousdev.ECsite.action.GoSignUpAction" method="execute">
+			<result name="success">signup.jsp</result>
+		</action>
+
+		<action name="SignInConfirmAction" class="com.internousdev.ECsite.action.SignInConfirmAction" method="execute">
+			<result name="success">mypage.jsp</result>
+			<result name="error">signin.jsp</result>
+		</action>
+
+		<action name="CreateUserAction" class="com.internousdev.ECsite.action.CreateUserAction" method="execute">
+			<result name="success">signupConfirm.jsp</result>
+			<result name="error">signup.jsp</result>
+		</action>
+
+		<action name="CreateUserCompleteAction" class="com.internousdev.ECsite.action.CreateUserCompleteAction" method="execute">
+			<result name="success">signupComplete.jsp</result>
+		</action>
+
+		<action name="GoMyPageAction" class="com.internousdev.ECsite.action.GoMyPageAction" method="execute">
+			<result name="success">mypage.jsp</result>
+		</action>
+
+		<action name="ShowItemDetail" class="com.internousdev.ECsite.action.ShowItemDetail" method="execute">
+			<result name="success">buyItem.jsp</result>
+		</action>
+
+		<action name="BuyItemAction" class="com.internousdev.ECsite.action.BuyItemAction" method="execute">
+			<result name="success">buyItemConfirm.jsp</result>
+		</action>
+
+		<action name="BuyItemCompleteAction" class="com.internousdev.ECsite.action.BuyItemCompleteAction" method="execute">
+			<result name="success">buyItemComplete.jsp</result>
+		</action>
+
+		<action name="GoHistoryPageAction" class="com.internousdev.ECsite.action.GoHistoryPageAction" method="execute">
+			<result name="success">buyHistory.jsp</result>
+		</action>
+
+
+	</package>
+</struts>

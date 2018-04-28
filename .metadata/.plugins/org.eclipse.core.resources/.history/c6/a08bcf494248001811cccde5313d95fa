@@ -1,0 +1,9 @@
+package com.internousdev.ECsite.action;
+
+public class GoHomeAction {
+
+
+	public String execute(){
+		return SUCCESS;
+	}
+}

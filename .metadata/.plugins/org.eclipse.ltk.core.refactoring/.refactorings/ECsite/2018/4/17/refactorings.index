@@ -1,0 +1,14 @@
+1524585606929	リソース 'login.jsp' の名前変更
+1524644669875	要素を削除
+1524659574012	要素を削除
+1524659578691	要素を削除
+1524721667677	型名 'CreateUserConfirmAction' を変更します
+1524751611276	型名 'SignInDTO' を変更します
+1524751622598	型名 'SignInDAO' を変更します
+1524751853729	型名 'GoSignInAction' を変更します
+1524751911750	型名 'GoLoginAction' を変更します
+1524751947250	型名 'LoginDAO' を変更します
+1524751962671	型名 'LoginDTO' を変更します
+1524835409178	型名 'BuyItemComplete' を変更します
+1524892747239	'buyHistory.jsp' を 'WebContent' に移動
+1524928198361	メソッド名 'gerMyPageUserInfo' を変更します

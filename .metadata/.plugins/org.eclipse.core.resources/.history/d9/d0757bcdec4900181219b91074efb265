@@ -1,0 +1,8 @@
+package com.internousdev.ECsite.action;
+
+public class GoMyPageAction {
+
+	public String execute(){
+		return SUCCESS;
+	}
+}
