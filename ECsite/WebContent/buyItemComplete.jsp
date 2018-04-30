@@ -66,9 +66,19 @@
 #main{
     float: clear;
     position: absolute;
-    top: 30px;
-    margin-top:50px;
+    top: 60px;
     width: 100%;
+    height: 500px;
+    text-align:center;
+}
+
+#main table{
+    text-align:center;
+    margin:0 auto;
+}
+
+#main p{
+	font-size:30px;
 }
 
 #footer{
@@ -99,6 +109,9 @@
         </div>
 
 		<div id="main">
+
+			<p>商品購入完了</p>
+
 			<p>購入手続きが完了致しました。</p>
         	<div>
 			<span>マイページに戻る場合は</span><a href='<s:url action="GoMyPageAction"/>'>こちら</a>

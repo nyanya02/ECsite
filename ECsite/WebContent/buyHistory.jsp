@@ -59,9 +59,19 @@
 #main{
     float: clear;
     position: absolute;
-    top: 30px;
-    margin-top:50px;
+    top: 60px;
     width: 100%;
+    height: 500px;
+    text-align:center;
+}
+
+#main table{
+    text-align:center;
+    margin:0 auto;
+}
+
+#main p{
+	font-size:30px;
 }
 
 #imgbox{
@@ -114,6 +124,8 @@
         </div>
 
 		<div id="main">
+
+			<p>購入履歴</p>
 
         	<s:if test="session.message == ''">
 				<h3>ご購入情報は以下になります。</h3>

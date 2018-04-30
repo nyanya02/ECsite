@@ -66,9 +66,19 @@
 #main{
     float: clear;
     position: absolute;
-    top: 30px;
-    margin-top:50px;
+    top: 60px;
     width: 100%;
+    height: 500px;
+    text-align:center;
+}
+
+#main table{
+    text-align:center;
+    margin:0 auto;
+}
+
+#main p{
+font-size:30px;
 }
 
 #footer{
@@ -99,6 +109,9 @@
         </div>
 
         <div id="main">
+
+        	<p>新規登録</p>
+
         	<table>
         		<s:form action="CreateUserAction">
 
