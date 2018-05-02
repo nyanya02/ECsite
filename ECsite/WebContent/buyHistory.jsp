@@ -148,7 +148,7 @@
         			</tr>
 
 				</table>
-				<s:form action="GoHistoryPageAction">
+				<s:form action="GoHistoryDeleteAction">
 					<input type="hidden" name="deleteFlg" value="1">
 					<s:submit value="削除" method="delete"/>
 				</s:form>

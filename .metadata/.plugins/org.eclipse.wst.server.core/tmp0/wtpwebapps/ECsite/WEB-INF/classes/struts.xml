@@ -52,6 +52,10 @@
 			<result name="success">buyHistory.jsp</result>
 		</action>
 
+		<action name="GoHistoryDeleteAction" class="com.internousdev.ECsite.action.GoHistoryDeleteAction" method="delete">
+			<result name="success">buyHistory.jsp</result>
+		</action>
+
 		<action name="SignOutAction" class="com.internousdev.ECsite.action.SignOutAction" method="execute">
 			<result name="success">home.jsp</result>
 		</action>

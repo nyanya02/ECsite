@@ -12,95 +12,11 @@
 
 <title>ホーム</title>
 
-<!-- <link rel="stylesheet" href="/css/style.css"> -->
-
-<style>
-
-#header{
-    position:absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height:60px;
-    background-color: black;
-}
-
-#header #logo{
-    float: left;
-    width:200px;
-    padding-left: 10px;
-    color: white;
-    font-size: 25px;
-    line-height: 60px;
-}
-
-#header ul{
-    float: right;
-    line-height: 30px;
-}
-
-#header ul li{
-    float: left;
-    list-style: none;
-    padding-right: 20px;
-    color: white;
-    font-size: 18px;
-}
-
-#logo a{
-    text-decoration: none;
-    color: white;
-}
-#logo a:hover{
-    color: #E6E6E6;
-}
-
-#header li a{
-    text-decoration: none;
-    color: white;
-}
-#header li a:hover{
-    color: #E6E6E6;
-}
-
-#main{
-    float: clear;
-    position: absolute;
-    top: 60px;
-    width: 100%;
-    height: 500px;
-    text-align:center;
-}
-
-#main table{
-    text-align:center;
-    margin:0 auto;
-}
-
-#main p{
-	font-size:30px;
-}
-
-
-#footer{
-    clear:both;
-    width: 100%;
-    height: 60px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    color: white;
-    background-color: black;
-    text-align: center;
-    line-height: 60px;
-}
-
-
-</style>
+<link rel="stylesheet" href="./css/style.css">
 
 </head>
 <body>
-
+	<header>
 		<div id="header">
             <div id="logo"><a href='<s:url action="GoHomeAction"/>'>ECサイト</a></div>
             <ul>
@@ -108,9 +24,9 @@
                 <li><a href='<s:url action="GoSignUpAction"/>'>新規登録画面へ</a></li>
             </ul>
         </div>
-
+	</header>
         <div id="main">
-            <p id="t">HOME</p>
+            <p>HOME</p>
         </div>
 
         <div id="footer">

@@ -77,7 +77,7 @@
     margin:0 auto;
 }
 
-#main p#t{
+#main p{
 	font-size:30px;
 }
 
@@ -110,7 +110,7 @@
 
 		<div id="main">
 
-			<p id="t">商品購入完了</p>
+			<p>商品購入完了</p>
 
 			<p>購入手続きが完了致しました。</p>
         	<div>

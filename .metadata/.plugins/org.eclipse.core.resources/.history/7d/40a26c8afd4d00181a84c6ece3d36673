@@ -1,0 +1,22 @@
+package com.internousdev.ECsite.action;
+
+import java.util.Map;
+
+import com.internousdev.ECsite.dao.HistoryPageDAO;
+import com.internousdev.ECsite.dto.HistoryPageDTO;
+import com.opensymphony.xwork2.ActionSupport;
+
+public class GoHistoryDeleteAction extends ActionSupport{
+	public Map<String, Object> session;
+	public HistoryPageDAO historyPageDAO = new HistoryPageDAO();
+	public HistoryPageDTO historyPageDTO = new HistoryPageDTO();
+	public String deleteFlg;
+
+	public String delete(){
+		String result=ERROR;
+
+		result=SUCCESS;
+		return result;
+	}
+
+}
